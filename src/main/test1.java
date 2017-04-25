@@ -31,7 +31,7 @@ public class test1 {
 		element.sendKeys(searchKey);
 		element.submit();
 		(new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//h3/a)[1]")));
-		(new WebDriverWait(driver, 10)).until(ExpectedConditions.invisibilityOfAllElements(driver.findElements(By.name("q"))));
+		//(new WebDriverWait(driver, 10)).until(ExpectedConditions.invisibilityOfAllElements(driver.findElements(By.name("q"))));
 	}
 
 	@AfterTest
