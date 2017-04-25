@@ -17,7 +17,7 @@ public class test1 {
 	@BeforeTest
 	public void initDriver() throws Exception {
 		System.out.println("Jenkins run started");
-		System.setProperty("webdriver.chrome.driver", "C:/Users/I335799/Desktop/jenkins/Test-Automation/lib/chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Work/libs/chromedriver_win32/chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 
