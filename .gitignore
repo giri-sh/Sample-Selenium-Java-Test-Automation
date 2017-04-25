@@ -1,6 +1,2 @@
-/bin/
-.classpath
-.project
-/test-output/
-/lib/
+/test-output
 *.log
